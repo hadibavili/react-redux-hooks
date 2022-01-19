@@ -16,7 +16,7 @@ const formReducer = (state: State, action: Action): State => {
 };
 const initialState = { email: "", password: "" };
 
-const Login: React.FC<{ onLogin: () => void }> = props => {
+const Login: React.FC<any> = props => {
    const [formState, dispatchForm] = useReducer(formReducer, initialState);
    const navigate = useNavigate();
 

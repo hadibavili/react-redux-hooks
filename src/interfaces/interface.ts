@@ -1,6 +1,6 @@
 export interface IThemeContext {
    isLogin: boolean;
-   handleLogin?: () => void;
+   loginHandler?: () => void;
 }
 
 export type universityDetailType = {
